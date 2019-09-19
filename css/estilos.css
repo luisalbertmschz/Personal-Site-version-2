@@ -1,0 +1,40 @@
+
+
+
+body{
+    margin: 0;
+
+}
+
+
+
+
+
+h1{
+
+    margin-top: 0;
+}
+
+div.Top-Container{
+   background-color: #FFFFFF;
+
+}
+
+
+div.Middle-Container{
+
+    width: 200px;
+    height: 200px;
+    background-color: #394a6d;
+}
+
+
+div.Bottom-Container{
+
+    width: 200px;
+    height: 200px;
+    background-color: #3c9d9b;
+}
+
+
+
