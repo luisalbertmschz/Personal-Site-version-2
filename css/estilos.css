@@ -1,8 +1,21 @@
+:root {
+
+
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Caveat', cursive;
 
 
 
-body{
+
+
+
+}
+
+body {
     margin: 0;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
 
 }
 
@@ -10,18 +23,50 @@ body{
 
 
 
-h1{
+h1 {
 
     margin-top: 0;
+    font-family: 'Caveat', cursive;
 }
 
-div.Top-Container{
-   background-color: #FFFFFF;
+h2 {
+
+    margin-top: 0;
+    font-family: 'Raleway', sans-serif;
+}
+
+h3 {
+
+    margin-top: 0;
+    font-family: 'Raleway', sans-serif;
+}
+
+
+
+
+/* Mis contenedores de la web organizador de arriba hacia abajo */
+
+div.Top-Container {
+
+    background-color: #FFFFFF;
+    position: relative;
+    padding-top: 412px;
 
 }
 
 
-div.Middle-Container{
+div.Pre-Middle-Container {
+
+    width: 200px;
+    height: 200px;
+    background-color: purple;
+    position: relative;
+
+}
+
+
+
+div.Middle-Container {
 
     width: 200px;
     height: 200px;
@@ -29,7 +74,14 @@ div.Middle-Container{
 }
 
 
-div.Bottom-Container{
+div.Pre-Bottom-Container {
+
+    width: 200px;
+    height: 200px;
+    background-color: #7ebb1c;
+}
+
+div.Bottom-Container {
 
     width: 200px;
     height: 200px;
@@ -37,4 +89,38 @@ div.Bottom-Container{
 }
 
 
+/* 
+Imagenes y formas que dan vida a la web */
 
+
+
+
+.FormaAzulSupTC {
+    width: 40%;
+    position: absolute;
+    top: -70px;
+    left: -339.136px;
+    width: 496.48px;
+
+
+    /* right:1050px;
+    bottom:80px; */
+}
+
+
+.FormaAzulInfeTC {
+    /* width: 25%; */
+    position: absolute;
+
+
+
+
+
+}
+
+
+
+.ImgCentralTC {
+
+    width: 50%;
+}
