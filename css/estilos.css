@@ -16,7 +16,7 @@ body {
     margin: 0;
     text-align: center;
     font-family: 'Roboto', sans-serif;
-    
+
 }
 
 
@@ -24,9 +24,9 @@ body {
 h1 {
 
 
-    margin:3.125rem;
+    margin: 3.125rem;
     font-family: 'Caveat', cursive;
-    font-size:5.625rem ;  
+    font-size: 5.625rem;
     color: #000071;
     line-height: 2;
 }
@@ -38,16 +38,16 @@ h2 {
     font-size: 2.5rem;
     color: #000071;
     font-weight: normal;
-    
+
 }
 
 h3 {
 
     margin-top: 0;
     font-family: 'Open Sans Condensed',
-    sans-serif;
+        sans-serif;
     color: #000071;
-    
+
 }
 
 
@@ -71,8 +71,9 @@ div.Pre-Middle-Container {
     height: 200px; */
     background-color: #FFFFFF;
     padding-top: 40px;
-    padding-bottom: 70px;;
-    
+    padding-bottom: 70px;
+    ;
+
 }
 
 
@@ -85,7 +86,7 @@ div.Middle-Container {
     background-color: #FFFFFF;
     position: relative;
     padding-bottom: 20px;
-    
+
 }
 
 
@@ -114,19 +115,19 @@ div.Bottom-Container {
 
 
 
-div.skill-row{
-    width:50%;
-    margin: 150px auto 150px auto ;
+div.skill-row {
+    width: 50%;
+    margin: 150px auto 150px auto;
     text-align: left;
     line-height: 2;
-    
-    
+
+
 }
 
-div.profile{
-     width:80%;
-     margin: 20px auto 20px auto;
-     
+div.profile {
+    width: 80%;
+    margin: 20px auto 20px auto;
+
 
 }
 
@@ -152,15 +153,12 @@ Imagenes y formas que dan vida a la web */
 }
 
 
-.formaazulseccioncontacto{
-	overflow: visible;
+.formaazulseccioncontacto {
+    overflow: visible;
     position: absolute;
     width: 150px;
-    top:-10px;
-    right:0px
-
-
-
+    top: -10px;
+    right: 0px
 }
 
 
@@ -180,55 +178,52 @@ Imagenes y formas que dan vida a la web */
 
 .ImgCentralTC {
 
-    
-/*     width: 45.625rem;
+
+    /*     width: 45.625rem;
     margin: 0 auto  */
 
     max-width: 80%;
     height: auto;
-    width: auto\9; /* ie8 */
+    width: auto\9;
+    /* ie8 */
 }
 
-.imgpersonal{
+.imgpersonal {
 
     width: 15.625rem;
     padding-top: 5rem
-    
+}
+
+
+.skill1 {
+    width: 25%;
+    float: left;
+    margin-right: 1.875rem;
+
 
 }
 
 
-.skill1{
-   width: 25%;
-   float: left;
-   margin-right:1.875rem;
-  
-  
-}
 
 
 
-
-
-.skill2{
+.skill2 {
     width: 25%;
     float: right;
-    margin-left:1.875rem;
-}
-
-.skill2text{
-    clear: right;
+    margin-left: 1.875rem;
 }
 
 
 
 
 
-.contactmeimg{
+
+
+.contactmeimg {
     width: 25rem;
 }
 
-.footercontacticons{
+.footercontacticons {
 
     color: #4285F4;
     margin: 3px;
@@ -236,10 +231,10 @@ Imagenes y formas que dan vida a la web */
 
 }
 
-.footercontacticons:hover{
+.footercontacticons:hover {
     color: #000071;
-   
-   
+
+
 
 }
 
@@ -248,7 +243,7 @@ blockquote {
     width: 60%;
     margin: 50px auto;
     font-family: 'Roboto',
-sans-serif;
+        sans-serif;
     font-style: italic;
     color: #555555;
     padding: 1.2em 30px 1.2em 75px;
@@ -282,9 +277,9 @@ blockquote::after {
     justify-content: center;
     margin-top: 10px;
 
-  }
-  
-  .button {
+}
+
+.button {
     width: 140px;
     height: 45px;
     font-family: 'Roboto', sans-serif;
@@ -300,90 +295,170 @@ blockquote::after {
     transition: all 0.3s ease 0s;
     cursor: pointer;
     outline: none;
-    }
-  
-  .button:hover {
+}
+
+.button:hover {
     background-color: #4285F4;
     box-shadow: 0px 15px 20px #4285F4;
     color: #fff;
     transform: translateY(-7px);
-  }
+}
 
- 
+
 
 
 
 
 
 /* Smartphones (portrait and landscape) ----------- */
-@media only screen 
-and (min-device-width : 320px) 
-and (max-device-width : 500px) {
+
+/* (1280x720) Galaxy Note 2, WXGA */
+@media  screen and (min-device-width: 720px) and (max-device-width: 1024px) {
+    /* insert styles here */
+
+    .skill1 {
+        float: none;
+        width: 140%;
+        text-align: center;
+        display: block;
+        margin-left: -50px;
+        margin-right: auto;
 
 
-/* Styles */
+    }
+
+    .skill2 {
+
+        float: none;
+        width: 140%;
+        text-align: center;
+        display: block;
+        margin-left: -50px;
+        margin-right: auto;
 
 
+    }
+
+    div.skill-row {
+        text-align: justify;
+        position: relative;
+        float: none;
+        width: 50%
+    }
+
+}
+
+
+@media only screen and (min-device-width : 720px) and (max-device-width : 1280px) {
+
+
+    /* Styles */
+    .skill1 {
+        float: none;
+        width: 140%;
+        text-align: center;
+        display: block;
+        margin-left: -50px;
+        margin-right: auto;
+
+
+    }
+
+    .skill2 {
+
+        float: none;
+        width: 140%;
+        text-align: center;
+        display: block;
+        margin-left: -50px;
+        margin-right: auto;
+
+
+    }
+
+    div.skill-row {
+        text-align: justify;
+        position: relative;
+        float: none;
+        width: 50%
+    }
 
 
 }
 
 /* Smartphones (landscape) ----------- */
-@media only screen 
-and (min-width : 533px) {
-/* Styles */
+@media only screen and (min-width : 533px) {
+    /* Styles */
 }
 
 /* Smartphones (portrait) ----------- */
-@media only screen 
-and (max-width : 720px) {
-/* Styles */
-.formaazulseccioncontacto {
-    visibility: hidden;
-}
+@media only screen and (max-width : 720px) {
+
+    /* Styles */
+    .formaazulseccioncontacto {
+        visibility: hidden;
+    }
+
+    .skill1 {
+        float: none;
+        width: 140%;
+        text-align: center;
+        display: block;
+        margin-left: -50px;
+        margin-right: auto;
+
+
+    }
+
+    .skill2 {
+
+        float: none;
+        width: 140%;
+        text-align: center;
+        display: block;
+        margin-left: -50px;
+        margin-right: auto;
+
+
+    }
+
+    div.skill-row {
+        text-align: justify;
+        position: relative;
+        float: none;
+        width: 50%
+    }
 }
 
 /* Tablets, iPads (portrait and landscape) ----------- */
-@media only screen 
-and (min-device-width : 768px) 
-and (max-device-width : 1024px) {
-/* Styles */
+@media only screen and (min-device-width : 320px) and (max-device-width : 1280px) {
 
+    /* Styles */
 
-  
 }
 
 /* Tablets, iPads (landscape) ----------- */
-@media only screen 
-and (min-device-width : 768px) 
-and (max-device-width : 1024px) 
-and (orientation : landscape) {
-/* Styles */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) {
+    /* Styles */
 }
 
 /* Tablets, iPads (portrait) ----------- */
-@media only screen 
-and (min-device-width : 768px) 
-and (max-device-width : 1024px) 
-and (orientation : portrait) {
-/* Styles */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) {
+    /* Styles */
 }
 
 /* Desktops and laptops ----------- */
-@media only screen 
-and (min-width : 1224px) {
-/* Styles */
+@media only screen and (min-width : 1224px) {
+    /* Styles */
 }
 
 /* Large screens ----------- */
-@media only screen 
-and (min-width : 1824px) {
-/* Styles */
+@media only screen and (min-width : 1824px) {
+    /* Styles */
 }
 
 /* iPhone 4 ----------- */
-@media
-only screen and (-webkit-min-device-pixel-ratio : 1.5),
+@media only screen and (-webkit-min-device-pixel-ratio : 1.5),
 only screen and (min-device-pixel-ratio : 1.5) {
-/* Styles */
+    /* Styles */
 }
