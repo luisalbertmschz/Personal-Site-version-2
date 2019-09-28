@@ -17,12 +17,7 @@ body {
     text-align: center;
     font-family: 'Roboto', sans-serif;
     
-    
-    
-
 }
-
-
 
 
 
@@ -49,9 +44,10 @@ h2 {
 h3 {
 
     margin-top: 0;
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Open Sans Condensed',
+    sans-serif;
     color: #000071;
-
+    
 }
 
 
@@ -73,9 +69,9 @@ div.Pre-Middle-Container {
 
     /* width: 200px;
     height: 200px; */
-    background-color: purple;
+    background-color: #FFFFFF;
     padding-top: 40px;
-    padding-bottom: 30px;;
+    padding-bottom: 70px;;
     
 }
 
@@ -86,7 +82,7 @@ div.Middle-Container {
 
     /*  width: 200px;
     height: 200px; */
-    background-color: #394a6d;
+    background-color: #FFFFFF;
     position: relative;
     padding-bottom: 20px;
     
@@ -100,7 +96,7 @@ div.Pre-Bottom-Container {
     height: 200px; */
     background-color: #FFFFFF;
     padding-bottom: 10px;
-    padding-top: 100px;
+    padding-top: 150px;
     position: relative;
 }
 
@@ -110,22 +106,34 @@ div.Bottom-Container {
 
     /*   width: 200px;
     height: 200px; */
-    padding-top: 80px;
+    padding-top: 100px;
     margin-top: 10px;
-    background-color: #FFFFB8;
+    background-color: #ffffff;
 }
+
 
 
 
 div.skill-row{
     width:50%;
-    margin: 0 auto;
-    margin: 6.25rem auto 6.25rem auto ;
+    margin: 150px auto 150px auto ;
     text-align: left;
-    line-height:2;
+    line-height: 2;
+    
     
 }
 
+div.profile{
+     width:80%;
+     margin: 20px auto 20px auto;
+     
+
+}
+
+p {
+    font-size: 20px;
+    font-weight: lighter;
+}
 
 /* 
 Imagenes y formas que dan vida a la web */
@@ -176,7 +184,7 @@ Imagenes y formas que dan vida a la web */
 /*     width: 45.625rem;
     margin: 0 auto  */
 
-    max-width: 100%;
+    max-width: 80%;
     height: auto;
     width: auto\9; /* ie8 */
 }
@@ -199,11 +207,22 @@ Imagenes y formas que dan vida a la web */
 }
 
 
+
+
+
 .skill2{
     width: 25%;
     float: right;
     margin-left:1.875rem;
 }
+
+.skill2text{
+    clear: right;
+}
+
+
+
+
 
 .contactmeimg{
     width: 25rem;
@@ -224,10 +243,34 @@ Imagenes y formas que dan vida a la web */
 
 }
 
+blockquote {
+    font-size: 1.4em;
+    width: 60%;
+    margin: 50px auto;
+    font-family: 'Roboto',
+sans-serif;
+    font-style: italic;
+    color: #555555;
+    padding: 1.2em 30px 1.2em 75px;
+    border-left: 8px solid #4285F4;
+    line-height: 1.6;
+    position: relative;
+    background: #FFFFFF;
+}
 
+blockquote::before {
+    font-family: Arial;
+    content: "\201C";
+    color: #4285F4;
+    font-size: 4em;
+    position: absolute;
+    left: 10px;
+    top: -10px;
+}
 
-
-
+blockquote::after {
+    content: '';
+}
 
 
 
@@ -293,8 +336,11 @@ and (min-width : 533px) {
 
 /* Smartphones (portrait) ----------- */
 @media only screen 
-and (max-width : 320px) {
+and (max-width : 720px) {
 /* Styles */
+.formaazulseccioncontacto {
+    visibility: hidden;
+}
 }
 
 /* Tablets, iPads (portrait and landscape) ----------- */
@@ -302,6 +348,8 @@ and (max-width : 320px) {
 and (min-device-width : 768px) 
 and (max-device-width : 1024px) {
 /* Styles */
+
+
   
 }
 
